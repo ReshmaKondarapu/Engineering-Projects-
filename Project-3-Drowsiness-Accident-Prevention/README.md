@@ -1,4 +1,8 @@
 # Detection of Drowsiness and Accident Prevention System
+![NodeMCU](https://img.shields.io/badge/Board-NodeMCU_ESP8266-blue?style=flat-square)
+![Language](https://img.shields.io/badge/Language-C%2B%2B-orange?style=flat-square)
+![Interface](https://img.shields.io/badge/Protocol-I2C-green?style=flat-square)
+![IDE](https://img.shields.io/badge/IDE-Arduino_IDE-00979D?style=flat-square)
 
 ## Overview
 An embedded safety system designed to monitor driver alertness in real time and automatically intervene to prevent fatigue-induced vehicle accidents. Built around the **NodeMCU ESP2866 / ESP8266** board, the system uses IR eye-blink sensor spectacles to detect prolonged eye closure. Upon detecting drowsiness, it triggers auditory/visual alerts (buzzer and LED) and controls a relay to disable the vehicle's DC motor driving mechanism.
